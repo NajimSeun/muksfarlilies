@@ -1,0 +1,53 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    width: 50%;
+    min-height: 250px;
+    margin: 0 auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.125);
+    margin-bottom: 20px;
+  }
+  
+  .card  hr {
+      display: block;
+      width: 90%;
+     border: 0;
+    height: 1px;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    
+    
+  }
+
+  :host ::ng-deep.fa-check-circle{
+      color: #009DC4;
+      margin: 0 auto;
+      padding: 5px 0;
+  }
+
+  :host ::ng-deep.card p {
+      text-align: center;
+      padding: 0 10px;
+  }
+
+  :host ::ng-deep.card p span{
+      color: orange;
+      font-size: 1em;
+      font-weight: bold;
+  }
+
+  @media all and (min-width: 768px){
+      .card{
+          width: 70%;
+          
+      }
+  }

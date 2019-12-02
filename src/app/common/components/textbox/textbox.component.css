@@ -1,0 +1,13 @@
+:host ::ng-deep .textbox-msg{
+     
+    padding: 0px 15px;
+}
+:host ::ng-deep .first-word{
+    font-size: 3em;
+    color: #009DC4;
+}
+
+:host ::ng-deep .textbox-msg p {
+    text-align: center;
+    color: inherit;
+}

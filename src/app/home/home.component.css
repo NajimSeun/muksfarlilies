@@ -1,0 +1,19 @@
+.home{
+    position: relative;
+    top: 3.5em;
+    width: 100%;
+}
+
+.home-hero{
+    background-image: url("/assets/images/muksfar-hero.jpg");
+    background-position: 50% ;
+    min-height: 550px;
+    height: 50vh;
+    background-size: cover;
+}
+ 
+@media all and (min-width: 855px){
+    .home-hero{
+        background-position: 50%  -65px;
+    }
+}

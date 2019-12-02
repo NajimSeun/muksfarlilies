@@ -1,0 +1,16 @@
+<header>
+
+    <a href="#" class="logo"><span class="muksfar" >MUKSFAR<span class="lilies">LILIES</span></span></a>
+
+ <ul class="nav" [@openState]="isOpened ? 'open' : 'close'" [ngClass]="{open:isOpened}"  appBreakpointObserver > 
+  <li class="nav-link" ><a href="#">Home</a></li>
+  <li  class="nav-link"><a href="#">Admission</a></li>
+  <li   class="nav-link"><a href="#">Events</a></li>
+  <li  class="nav-link" ><a href="#">About</a></li>  
+  <li class="nav-link" ><a href="#">contact</a></li>
+  
+ </ul>
+
+ <a [routerLink]=""  ><i class="fas fa-bars menu-icon"  (click)="menuClicked()" ></i></a>
+</header>
+
